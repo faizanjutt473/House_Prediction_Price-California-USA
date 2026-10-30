@@ -1,4 +1,4 @@
-# 🏠 California House Price Prediction
+#  California House Price Prediction
 
 ![Python](https://img.shields.io/badge/Python-3.9%2B-blue?logo=python&logoColor=white)
 ![FastAPI](https://img.shields.io/badge/FastAPI-REST%20API-009688?logo=fastapi&logoColor=white)
@@ -9,7 +9,7 @@ A machine learning system that predicts **median house values in California** us
 
 ---
 
-## 📌 Table of Contents
+##  Table of Contents
 
 1. [Overview](#-overview)
 2. [Key Features](#-key-features)
@@ -27,13 +27,13 @@ A machine learning system that predicts **median house values in California** us
 
 ---
 
-## 🔎 Overview
+##  Overview
 
 Estimating property value accurately is important for buyers, sellers, real-estate agents and lenders. This project builds a regression model on the **California Housing dataset** and wraps it in a FastAPI application so that valuations are available on demand, around the clock, through a simple API.
 
 ---
 
-## ✨ Key Features
+##  Key Features
 
 - 🏡 **Instant single-property valuation** — submit one property's details and get a predicted price
 - 📂 **Bulk processing** — upload a CSV with hundreds of homes and predict all prices at once
@@ -44,7 +44,7 @@ Estimating property value accurately is important for buyers, sellers, real-esta
 
 ---
 
-## 🛠 Tech Stack
+##  Tech Stack
 
 | Category | Tools |
 |---|---|
@@ -86,7 +86,7 @@ House_Prediction_Price-California-USA/
 
 ---
 
-## ⚙️ Installation
+##  Installation
 
 **1. Clone the repository**
 
@@ -115,7 +115,7 @@ pip install -r requirements.txt
 
 ---
 
-## 🚀 Usage
+##  Usage
 
 ### Step 1 — Explore the data
 
@@ -143,7 +143,7 @@ uvicorn main:app --reload
 
 ---
 
-## 🔌 API Reference
+##  API Reference
 
 > Endpoint names and fields below follow the standard California Housing format. Adjust them to match your `main.py` if they differ.
 
@@ -178,7 +178,7 @@ Upload a CSV file containing one property per row. The API returns the file with
 
 ---
 
-## 🧠 Machine Learning Workflow
+##  Machine Learning Workflow
 
 ```
 Raw Data → Exploration → Cleaning → Train/Test Split
@@ -193,7 +193,7 @@ Raw Data → Exploration → Cleaning → Train/Test Split
 
 ---
 
-## 📈 Model Evaluation
+##  Model Evaluation
 
 Regression metrics used:
 
@@ -214,7 +214,7 @@ Run `python train_model.py` and add your scores:
 
 ---
 
-## 🔮 Future Improvements
+##  Future Improvements
 
 - Compare with Gradient Boosting, XGBoost and LightGBM
 - Hyperparameter tuning with GridSearchCV / RandomizedSearchCV
@@ -225,7 +225,7 @@ Run `python train_model.py` and add your scores:
 
 ---
 
-## 🤝 Contributing
+##  Contributing
 
 1. Fork the repository
 2. Create a feature branch (`git checkout -b feature/your-feature`)
@@ -235,7 +235,7 @@ Run `python train_model.py` and add your scores:
 
 ---
 
-## 👤 Author
+##  Author
 
 **Muhammad Faizan Farooq**
 Machine Learning / AI Engineer
